@@ -10,14 +10,22 @@
   margin: 0
   padding: 0
 
+/* Head/Top/Headers objects */
+#top-container , #bot-container
+  background: linear-gradient($gradient-direction , $gradient-color-peterriver , $gradient-color-belizehole)
+
+#bot-container
+  height: 200px
+
 /* Containar class */
 .container
-  @include container(100% , 100%)
+  @include container($container-full-width , $container-size-small)
 
 .container-small
-  @include container($container-size-small , $container-size-small)
+  @include container($container-full-width , $container-size-small)
+
+.container-normal
+  @include container($container-full-width , $container-size-normal)
 
 .container-big
-  @include container($container-size-big , $container-size-big)
-
-/* Head/Top/Headers objects */
+  @include container($container-full-width , $container-size-big)

@@ -1,5 +1,15 @@
 <template>
-  <div class="container"></div>
+  <div id="home">
+
+    <!-- landing page section -->
+
+    <div class="container" id="top-container"></div>
+
+    <div class="container-big"></div>
+    <div class="container" id="bot-container"></div>
+    <footer></footer>
+
+  </div>
 </template>
 
 <script lang="ts">
