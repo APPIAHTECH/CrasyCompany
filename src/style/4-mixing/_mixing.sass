@@ -6,3 +6,74 @@
     margin: 0
     box-sizing: border-box
     padding: 5px
+
+@mixin animated-all
+    -webkit-transition: all .55s ease
+    -moz-transition: all .55s ease
+    -ms-transition: all .55s ease
+    -o-transition: all .55s ease
+    transition: all .55s ease
+
+@mixin responsive-nav()
+    .nav
+      flex-flow: column wrap
+      box-sizing: border-box
+      justify-content: space-between
+      margin: 0
+      padding: 0
+
+    ul
+      padding: 0
+      margin: 0
+      width: auto !important
+
+    ul li
+      float: none
+
+    li a
+      padding: 7px 4px !important
+      margin: 0 !important
+      font-size: 10pt !important
+
+    ul#ul-logo
+      width: 50px !important
+      height: 50px !important
+      width: auto !important
+      position: absolute
+      left: 0
+      font-size: 20pt!important
+      @include animated-all
+
+    ul#menu
+      position: absolute
+      background: #2c3e50
+      left: 0
+      top: 0
+      bottom: 0
+      right: 0
+      height: 200px
+      display: none
+      z-index: 100
+      @include animated-all
+
+    i#bar-menu
+      display: block !important
+      position: absolute !important
+      right: 0
+      left: 90%
+      bottom: 0
+      top: 24px
+      cursor: pointer
+      font-size: 15pt
+      @include animated-all
+
+    ul#menu li a i
+      color: white
+      padding: 5px
+      font-size: 15pt
+      cursor: pointer
+      @include animated-all
+
+
+    // i#bar-menu:active ~ ul#menu
+    //   display: block !important
