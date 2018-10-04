@@ -1,1 +1,142 @@
 /* Modules Style */
+
+/* Navigation */
+.nav
+  display: flex
+  justify-content: center
+  flex-flow: row nowrap
+  padding: 10px
+  padding-top: 2px
+
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+  overflow: hidden
+  width: 100%
+  padding: 10px
+
+li
+  float: right
+
+li a
+  display: block
+  text-align: center
+  padding: 14px 16px
+  text-decoration: none
+  border-radius: 50px
+  font-size: 10pt
+
+li a:hover , li a#post-job:hover
+  color: $front-nav-button-color-hover
+  border-radius: 0
+
+li a#post-job:hover
+  border-radius: 50px
+
+/* Buttons */
+.button
+  background-color: $front-button-find-job-color
+  border: none
+  color: white
+  padding: 15px 32px
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  font-size: 10pt
+  font-weight: lighter
+  border-radius: 25px
+  height: 50px
+  letter-spacing: 1px
+  margin: 20px auto
+  outline: none
+  cursor: pointer
+  -webkit-transition: all .55s ease
+  -moz-transition: all .55s ease
+  -ms-transition: all .55s ease
+  -o-transition: all .55s ease
+  transition: all .55s ease
+
+.button:hover
+  background: $front-button-find-job-hover-color
+  color: white
+
+
+/* SearchBox input container module */
+.input-container
+  overflow: hidden
+  width: 300px
+  vertical-align: middle
+  white-space: nowrap
+  margin: 0 auto
+  margin-right: -50px
+
+.input-container input#search
+  width: 300px
+  height: 50px
+  background: white
+  border: none
+  font-size: 10pt
+  float: left
+  color: #2c3e50
+  padding-left: 15px
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
+
+.input-container input#search::-webkit-input-placeholder
+   color: #65737e
+
+.input-container button.icon
+  -webkit-border-top-right-radius: 5px
+  -webkit-border-bottom-right-radius: 5px
+  -moz-border-radius-topright: 5px
+  -moz-border-radius-bottomright: 5px
+  border-top-right-radius: 5px
+  border-bottom-right-radius: 5px
+  border: none
+  background: white
+  height: 50px
+  width: 50px
+  color: #4f5b66
+  opacity: 0
+  font-size: 10pt
+  -webkit-transition: all .55s ease
+  -moz-transition: all .55s ease
+  -ms-transition: all .55s ease
+  -o-transition: all .55s ease
+  transition: all .55s ease
+
+.input-container:hover button.icon,
+.input-container:active button.icon,
+.input-container:focus button.icon
+    outline: none
+    opacity: 1
+    margin-left: -50px
+
+.input-container:hover button.icon:hover
+    // background: white
+
+/* follow us widget */
+.widget-follow
+  display: flex !important
+  width: auto !important
+
+.widget-follow i
+  font-size: 2em
+
+/* Profile circle */
+
+.profile-circle
+  width: 80px
+  height: 80px
+  padding: 10px
+  margin: 0
+  overflow: hidden
+  outline: none
+  border-radius: 50%
+  background: grey
+  background-image: url($profile-image-1)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
