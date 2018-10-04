@@ -9,6 +9,8 @@
       <li><a href="/post-job" id="post-job">Post a Job</a></li>
       <li><a href="/singup">Sign Up</a></li>
       <li><a href="/login">Login</a></li>
+      <li><a href="/company-zone">Company Zone</a></li>
+      <li><a href="/find-candidate">Find Candidates</a></li>
     </ul>
 
   </div>
