@@ -3,15 +3,25 @@
     <!-- navigation -->
     <FrontNav/>
 
-    <div class="container" id="bot-container">
-      <!-- 2 intruduction meg -->
-      <div class="container" id="introduction">
-        <h1>Welcome Back</h1>
-        <p id="sub-description"> More than  1000k jobs are waiting for you </p>
-      </div>
-    </div>
+    <div class="container-big">
+      <form class="container form">
+        <h4>Sign in</h4>
+        <input type="text" id="user-name" name="user-name" placeholder=" Username ..."autofocus>
+        <input type="password" id="user-password" name="user-password" placeholder=" Password ...">
+        <a href="/forget-password">Forgot Password ? </a>
 
-    <div class="container-big"></div>
+        <button type="button" class="button" name="button"> Login </button>
+        <p>or sign in with</p>
+
+        <div id="social-net">
+          <button type="button" class="button social" id="go"> <i class="fab fa-google-plus-g"></i> </button>
+          <button type="button" class="button social" id="fa"> <i class="fab fa-facebook-f"></i> </button>
+          <button type="button" class="button social" id="ln"> <i class="fab fa-linkedin-in"></i> </button>
+        </div>
+
+      </form>
+
+    </div>
     <!-- footer -->
     <FrontFooter/>
 
@@ -24,7 +34,7 @@ import FrontNav from './../components/navigation/FrontNav.vue';
 import FrontFooter from './../components/navigation/FrontFooter.vue';
 
 @Component({
-  components: { FrontNav , FrontFooter },
+  components: { FrontNav , FrontFooter }
 })
 export default class Login extends Vue {}
 </script>

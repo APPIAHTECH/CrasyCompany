@@ -7,6 +7,45 @@
     box-sizing: border-box
     padding: 5px
 
+@mixin responsive-form
+  #social-net
+    display: flex
+    flex-flow: row nowrap
+    margin-top: 5px !important
+    
+  button.social
+    box-shadow: none!important
+
+  p#terms
+    font-size: 8pt
+    letter-spacing: 0px
+    margin-bottom: 10px
+    padding: 0
+
+  p#terms a
+    font-size: 10pt !important
+
+@mixin responsive-footer
+  #footer-nav  h3
+    font-size: 9pt
+    font-weight: bolder
+    color: black
+
+  #footer-nav ul
+    width: 24% !important
+
+  #footer-nav li a
+    font-size: 10pt !important
+    padding: 3px !important
+    margin-bottom: 4px !important
+    letter-spacing: 0px !important
+    opacity: 1 !important
+
+  .widget-follow
+    flex-flow: column nowrap!important
+  .widget-follow i
+    font-size: 12pt !important
+
 @mixin animated-all
     -webkit-transition: all .55s ease
     -moz-transition: all .55s ease
