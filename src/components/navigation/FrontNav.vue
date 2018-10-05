@@ -9,7 +9,7 @@
     <ul id="menu">
       <li><a><i class="far fa-times-circle" id="close-bar"></i></a></li>
       <li><a href="/post-job" id="post-job">Post a Job</a></li>
-      <li><a href="/singup">Sign Up</a></li>
+      <li><a href="/signup">Sign Up</a></li>
       <li><a href="/login">Login</a></li>
       <li><a href="/company-zone">Company Zone</a></li>
       <li><a href="/find-candidate">Find Candidates</a></li>
@@ -30,24 +30,23 @@ export default class FrontNav extends Vue {
     const closeNavBar : any = document.getElementById('close-bar');
     const menuBar : any = document.getElementById('menu');
 
-    let open = false;
+    let open : boolean = false;
 
-    opeNavBar.addEventListener('click' , (e) => {
+    opeNavBar.addEventListener('click' , () => {
 
       if(!open){
-        open = true
-        menuBar.style.display = "block"
-        closeNavBar.style.display = "block"
+        open = true;
+        menuBar.style.display = "block";
+        closeNavBar.style.display = "block";
       }
 
     });
 
-    closeNavBar.addEventListener('click' , (e) => {
+    closeNavBar.addEventListener('click' , () => {
 
       if(open){
-        open = false
-        menuBar.style.display = "none"
-
+        open = false;
+        menuBar.style.display = "none";
       }
 
     });
