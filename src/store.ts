@@ -6,6 +6,11 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
 
+    SearchBoxData : {
+      title: [],
+      locations : []
+    }
+    
   },
   mutations: {
 
