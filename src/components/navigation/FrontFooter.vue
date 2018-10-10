@@ -5,22 +5,28 @@
     <footer>
 
       <div id="footer-nav">
+
         <ul>
-          <h3>About us</h3>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/privacy">Privacy</a></li>
-          <li><a href="/help">Help</a></li>
-          <li><a href="/security">Security</a></li>
-          <li><a href="/cookies-policy">Cookies policy</a></li>
-          <li><a href="/service">Use of the service</a></li>
+          <h3>Company</h3>
+          <li><a href="/about">About us</a></li>
         </ul>
 
         <ul>
-          <h3>About CrasyCompany</h3>
-          <li><a href="/crasycompany">CrasyCompany today</a></li>
+          <h3>Resources</h3>
           <li><a href="/work">Work with us</a></li>
           <li><a href="/jobs">Job vacancies</a></li>
+          <li><a href="/csuport">Customer Support</a></li>
         </ul>
+
+
+        <ul>
+          <h3>Policy</h3>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/security">Security</a></li>
+          <li><a href="/cookies">Cookies policy</a></li>
+          <li><a href="/service">Use of the service</a></li>
+        </ul>
+
 
         <ul>
           <h3>Follow Us</h3>
