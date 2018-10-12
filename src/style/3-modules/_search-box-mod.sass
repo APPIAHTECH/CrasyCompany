@@ -40,12 +40,16 @@
   font-size: 10pt
   @include animated-all
 
+
 .input-container:hover button.icon,
 .input-container:active button.icon,
 .input-container:focus button.icon
     outline: none
     opacity: 1
     margin-left: -50px
+
+.input-container input#search:focus
+  border-radius: 0px
 
 .input-container:hover button.icon:hover
     // background: white

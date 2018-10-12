@@ -2,12 +2,13 @@
   <div class="container" id="searchbox">
 
     <div class="input-container">
-      <input type="search" id="search" placeholder="eg. Software engineer " />
+      <input type="search" id="search" placeholder="eg. Software engineer" autofocus/>
       <button class="icon"><i class="fa fa-search"></i></button>
     </div>
 
+
     <div class="input-container">
-      <input type="search" id="search" placeholder="eg. Barcelona " />
+      <input type="search" id="search" placeholder="eg. Barcelona "/>
       <button class="icon"><i class="fas fa-map-marker-alt"></i></button>
     </div>
 
@@ -21,6 +22,15 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
 export default class SearchBox extends Vue {
+
+
+  public data(){
+    return { }
+  }
+
+  public created() { }
+
+  public mounted() { }
 
 }
 </script>

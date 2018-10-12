@@ -7,15 +7,19 @@ export default new Vuex.Store({
   state: {
 
     SearchBoxData : {
-      title: [],
-      locations : []
+      title: ["Software engineer"],
+      locations : ["Barcelona"]
     }
-    
-  },
-  mutations: {
 
   },
-  actions: {
+
+  getters:{
+
+    getSearchBoxData: state => { return state.SearchBoxData }
 
   },
+
+  mutations: { },
+
+  actions: { },
 });
