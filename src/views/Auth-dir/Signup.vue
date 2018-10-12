@@ -37,8 +37,8 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import FrontNav from './../components/navigation/FrontNav.vue';
-import FrontFooter from './../components/navigation/FrontFooter.vue';
+import FrontNav from './../../components/navigation/FrontNav.vue';
+import FrontFooter from './../../components/navigation/FrontFooter.vue';
 
 @Component({
   components: { FrontNav , FrontFooter },

@@ -4,7 +4,7 @@
     width: $width
     height: $height
     margin: 0
-    box-sizing: border-box
+    box-sizing: border-box !important
     padding: 5px
 
 @mixin responsive-form
@@ -161,3 +161,8 @@
 
     // i#bar-menu:focus ~ ul#menu
     //   display: block !important
+@mixin profile($width : 80px , $height : 80px , $background : $special-black-color)
+    width: $width
+    height: $height
+    border-radius: 50%
+    background: $background

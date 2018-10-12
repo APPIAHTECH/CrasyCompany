@@ -6,9 +6,9 @@
     <div class="container-big">
       <form class="container form">
         <h4>Sign in</h4>
-        <input type="text" id="user-name" name="user-name" placeholder=" Username ..."autofocus>
+        <input type="email" id="user-name" name="user-name" placeholder=" Username ..."autofocus>
         <input type="password" id="user-password" name="user-password" placeholder=" Password ...">
-        <a href="/forget-password">Forgot Password ? </a>
+        <a href="/forgot-password">Forgot Password ? </a>
 
         <button type="button" class="button" name="button"> Login </button>
         <p>or sign in with</p>
@@ -30,8 +30,8 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import FrontNav from './../components/navigation/FrontNav.vue';
-import FrontFooter from './../components/navigation/FrontFooter.vue';
+import FrontNav from './../../components/navigation/FrontNav.vue';
+import FrontFooter from './../../components/navigation/FrontFooter.vue';
 
 @Component({
   components: { FrontNav , FrontFooter }

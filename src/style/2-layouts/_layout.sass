@@ -10,6 +10,119 @@
   margin: 0
   padding: 0
 
+/*Backend ***/
+
+#dash
+  display: flex
+  flex-flow: row nowrap
+  padding: 0
+  background: grey
+
+#top-nav
+  background: $div-menu-top-color
+  position: absolute
+  right: 0
+  top: 0
+  bottom: 0
+  width: 80%
+  height: 71px
+
+#top-left-smal-nav
+  padding: 0
+  height: auto
+
+
+#top-left-smal-nav ul li a i
+  color: $left-menu-logo-color
+
+#under
+  text-decoration: none
+
+#top-left-smal-nav ul
+  background: $left-menu-top-color
+  display: flex
+  flex-flow: row
+  width: 100%
+  height: auto
+  margin: 0 !important
+
+#left-nav
+  background: $left-menu-center-color
+  width: 25%
+  padding: 0!important
+  margin: 0!important
+
+#center-left-nav
+  height: 80%
+  box-sizing: border-box
+  padding: 12%
+
+// #down-left-nav
+//   box-sizing: border-box
+//   height: 80px
+//   padding-left: 12%
+//   background: $left-menu-bottom-color
+
+.dash-section
+  background: $div-center-color
+  height: auto!important
+  padding-top: 9% !important
+  padding-bottom: 20% !important
+  box-sizing: border-box !important
+
+.dash-section-content
+  padding: 5%
+  padding-top: 0
+  padding-bottom: 0
+
+.type-section
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-between
+  align-items: center
+
+.profile-text
+  margin-left: 45px !important
+
+.sub-list ul .profile-circle-small
+  margin-bottom: 10px
+
+.more-under
+  text-decoration: underline
+
+.type-section i
+  color: $div-menu-top-color
+  font-size: 15pt
+.sub-list
+  display: block
+
+.sub-list ul
+  padding: 0
+  margin: 0
+  margin-top: 5px
+  margin-top: 5px
+
+.sub-list ul li
+  float: none
+
+.sub-list ul li a
+  color: $white-color
+  opacity: .5
+  text-align: left
+  padding: 5px
+  padding-left: 0
+  margin-bottom: 10px
+
+.cirlce-active
+  position: relative
+  left: 25px
+  right: 0
+  top: -15px
+  bottom: 0
+
+.off
+  background: $off-color !important
+
 /* Head/Top/Headers objects */
 #top-container , #bot-container
   background: linear-gradient($gradient-direction , $gradient-color-peterriver , $gradient-color-belizehole)
@@ -69,7 +182,7 @@
   flex-flow: row nowrap
   justify-content: space-around
   padding: 0
-  padding-top: 50px
+  padding-top: 0
   padding-bottom: 50px
   margin: 0
   box-sizing: border-box
@@ -219,7 +332,7 @@ ul#default-ul li a:hover
 
 .sub-search-list p
   color: $special-black-color
-  
+
 /* Containar class */
 .container
   @include container($container-full-width , $container-size-small)
@@ -232,3 +345,9 @@ ul#default-ul li a:hover
 
 .container-big
   @include container($container-full-width , auto)
+
+.profile-circle-small
+  @include profile(30px , 30px)
+
+.cirlce-active ,
+  @include profile(10px , 10px , $active-color)

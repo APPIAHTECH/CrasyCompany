@@ -13,6 +13,28 @@ export default new Router({
       name: 'home',
       component: Home,
     },
+
+
+    /**Auth**/
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import(/* webpackChunkName: "about" */ './views/Auth-dir/Login.vue'),
+    },
+
+    {
+      path: '/signup',
+      name: 'signup',
+      component: () => import(/* webpackChunkName: "about" */ './views/Auth-dir/Signup.vue'),
+    },
+
+    {
+      path: '/forgot-password',
+      name: 'forgot-password',
+      component: () => import(/* webpackChunkName: "about" */ './views/Auth-dir/ForgotPassword.vue'),
+    },
+
+    /**Footer pages **/
     {
       path: '/about',
       name: 'about',
@@ -59,16 +81,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/resources-dir/WorkUs.vue'),
     },
 
+    /** Dashboard pages **/
     {
-      path: '/login',
-      name: 'login',
-      component: () => import(/* webpackChunkName: "about" */ './views/Login.vue'),
-    },
-
-    {
-      path: '/signup',
-      name: 'signup',
-      component: () => import(/* webpackChunkName: "about" */ './views/Signup.vue'),
+      path: '/dashboard',
+      name: 'dashboard',
+      component: () => import(/* webpackChunkName: "about" */ './views/backend/Dashboard.vue'),
     },
 
   ],
