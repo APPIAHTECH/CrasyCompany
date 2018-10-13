@@ -9,25 +9,24 @@
       <div class="container-big dash-section">
 
         <div class="dash-section-content">
-
           <h1>Hey im a dashboard</h1>
-          <h1>Hey im a dashboard</h1>
-          <h1>Hey im a dashboard</h1>
-          <h1>Hey im a dashboard</h1>
-          <h1>Hey im a dashboard</h1>
-          <h1>Hey im a dashboard</h1>
-
+          <h2>put some stuff ! :D</h2>
         </div>
 
       </div>
 
     </div>
     <!-- footer -->
-    <!-- <FrontFooter/> -->
+    <FrontFooter/>
 
   </div>
 </template>
 
+<style scoped lang="sass">
+  #frontfooter
+    display: none
+
+</style>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import FrontFooter from './../../components/navigation/FrontFooter.vue';
