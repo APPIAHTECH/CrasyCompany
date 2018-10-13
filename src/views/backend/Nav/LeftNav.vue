@@ -13,47 +13,48 @@
 
       <div class="sub-list">
         <div class="type-section">
-          <p>Channel</p>
+          <p>Work Side</p>
           <i class="fas fa-plus-circle"></i>
         </div>
         <ul>
-          <li><a href="#">Marketing</a></li>
-          <li><a href="#">Design</a></li>
-          <li><a href="#">PHP</a></li>
+          <li><a href="#">Search Offers</a></li>
+          <li><a href="#">My CV's</a></li>
+          <li><a href="#">Who See Me </a></li>
+          <li><a href="#">Help</a></li>
         </ul>
       </div>
 
       <div class="sub-list">
         <div class="type-section">
-          <p>Mobile</p>
+          <p>Candidates</p>
           <i class="fas fa-user-md"></i>
         </div>
         <ul>
-          <li><a href="#">iOS-Dev</a></li>
-          <li><a href="#">Android</a></li>
-          <li><a href="#">Web-Dev</a></li>
+          <li><a href="#">Android Developer</a></li>
+          <li><a href="#">Web Developer</a></li>
+          <li><a href="#">Software engineer</a></li>
           <li><a href="#" class="more-under">+6 More </a></li>
         </ul>
       </div>
 
       <div class="sub-list">
         <div class="type-section">
-          <p>Companies Chat</p>
+          <p>Chat</p>
           <i class="fas fa-comment-alt"></i>
         </div>
         <ul>
           <div class="profile-circle-small">
-            <li><a href="#" class="profile-text">Google</a></li>
+            <li><a class="profile-text">Google</a></li>
             <div class="cirlce-active"></div>
           </div>
 
           <div class="profile-circle-small">
-            <li><a href="#" class="profile-text">Amazon</a></li>
+            <li><a class="profile-text">Amazon</a></li>
             <div class="cirlce-active off"></div>
           </div>
 
           <div class="profile-circle-small">
-            <li><a href="#" class="profile-text">Microsoft</a></li>
+            <li><a class="profile-text">Microsoft</a></li>
             <div class="cirlce-active"></div>
           </div>
 

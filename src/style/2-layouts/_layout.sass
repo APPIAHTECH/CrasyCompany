@@ -20,12 +20,29 @@
 
 #top-nav
   background: $div-menu-top-color
-  position: absolute
-  right: 0
-  top: 0
-  bottom: 0
-  width: 80%
-  height: 71px
+  height: 70px
+  width: 100%
+
+#top-menu-options
+  width: auto
+  height: 70px
+  box-sizing: border-box
+  display: flex
+  flex-flow: row nowrap
+  align-items: center
+  justify-content: flex-end
+  margin-right: 50px
+
+#top-menu-options li
+  float: none
+  padding: 0 !important
+  list-style: none
+
+#top-menu-options li a
+  text-decoration: none
+
+#top-menu-options li a i
+  color: $white-color
 
 #top-left-smal-nav
   padding: 0
@@ -48,7 +65,7 @@
 
 #left-nav
   background: $left-menu-center-color
-  width: 25%
+  width: 34% !important
   padding: 0!important
   margin: 0!important
 
@@ -66,13 +83,12 @@
 .dash-section
   background: $div-center-color
   height: auto!important
-  padding-top: 9% !important
-  padding-bottom: 20% !important
+  padding: 0!important
   box-sizing: border-box !important
 
 .dash-section-content
   padding: 5%
-  padding-top: 0
+  padding-top: 2.5%
   padding-bottom: 0
 
 .type-section
@@ -80,6 +96,8 @@
   flex-flow: row nowrap
   justify-content: space-between
   align-items: center
+.type-section p
+  color: $special-black-color
 
 .profile-text
   margin-left: 45px !important
@@ -93,6 +111,7 @@
 .type-section i
   color: $div-menu-top-color
   font-size: 15pt
+
 .sub-list
   display: block
 
@@ -106,12 +125,16 @@
   float: none
 
 .sub-list ul li a
-  color: $white-color
+  // color: $white-color
   opacity: .5
   text-align: left
   padding: 5px
   padding-left: 0
   margin-bottom: 10px
+
+.sub-list ul li a:hover
+  color: $gradient-color-belizehole
+  opacity: 1
 
 .cirlce-active
   position: relative

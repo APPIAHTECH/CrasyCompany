@@ -4,10 +4,9 @@
     <div class="container-big" id="dash">
       <!-- navigation -->
       <LeftNav/>
-      <TopNav/>
-
+      
       <div class="container-big dash-section">
-
+        <TopNav/>
         <div class="dash-section-content">
           <h1>Hey im a dashboard</h1>
           <h2>put some stuff ! :D</h2>
