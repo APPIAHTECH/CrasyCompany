@@ -94,5 +94,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/jobs-dir/JobSearcher.vue'),
     },
 
+    {
+      path: '/job-detail',
+      name: 'job-detail',
+      component: () => import(/* webpackChunkName: "about" */ './views/jobs-dir/DetailJob.vue'),
+    },
+
   ],
 });
