@@ -88,5 +88,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/backend/Dashboard.vue'),
     },
 
+    {
+      path: '/find-jobs',
+      name: 'find-jobs',
+      component: () => import(/* webpackChunkName: "about" */ './views/jobs-dir/JobSearcher.vue'),
+    },
+
   ],
 });
