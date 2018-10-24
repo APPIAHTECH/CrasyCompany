@@ -170,7 +170,7 @@ import FrontNav from './../../components/navigation/FrontNav.vue';
 import FrontFooter from './../../components/navigation/FrontFooter.vue';
 
 @Component({
-  components: { FrontNav , FrontFooter }
+  components: { FrontNav , FrontFooter },
 })
 export default class Privacy extends Vue {}
 </script>

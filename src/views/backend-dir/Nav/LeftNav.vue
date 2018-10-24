@@ -4,7 +4,7 @@
     <div class="container-small" id="top-left-smal-nav">
       <ul id="ul-logo">
         <li><a><i class="fab fa-firstdraft"></i></a></li>
-        <a id="under"><p>CrasyCompany</p></a>
+        <a id="/dashboard"><p>CrasyCompany</p></a>
       </ul>
     </div>
 
@@ -71,7 +71,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
-  components: { }
+  components: { },
 })
 export default class LeftNav extends Vue {}
 </script>

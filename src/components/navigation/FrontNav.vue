@@ -8,11 +8,11 @@
     <i class="fas fa-bars" id="bar-menu"></i>
     <ul id="menu">
       <li><a><i class="far fa-times-circle" id="close-bar"></i></a></li>
-      <li><a href="/post-job" id="post-job">Post a Job</a></li>
-      <li><a href="/signup">Sign Up</a></li>
+      <!-- <li><a href="/post-job" id="post-job">Post a Job</a></li> -->
+      <li><a href="/signup" id="post-job">Sign Up</a></li>
       <li><a href="/login">Login</a></li>
       <li><a href="/company-zone">Company Zone</a></li>
-      <li><a href="/find-candidate">Find Candidates</a></li>
+      <!-- <li><a href="/find-candidate">Find Candidates</a></li> -->
     </ul>
 
   </div>

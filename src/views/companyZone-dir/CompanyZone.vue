@@ -1,19 +1,29 @@
 <template>
-  <div id="about">
-    <!-- navigation -->
-    <FrontNav/>
+  <div id="company-zone">
 
-    <div class="container-small" id="vision">
-      <h1>
-        <span id="mision">Our mission</span> is to bring <span>jobs</span> and<br/>
-        contribute to the change of the <span id="ghanians"> Ghanians </span>market labor
-      </h1>
+    <!-- landing page for companies -->
+
+    <div class="container" id="top-container">
+
+      <!-- navigation -->
+      <FrontNav/>
+
+      <!-- intruduction meg -->
+      <div class="container" id="introduction">
+        <h1>Find the perfect canditate</h1>
+        <p id="sub-description">Find or post the most killer job offer of the time :D </p>
+        <div class="flex center">
+          <button type="button" class="button"> <i class="fab fa-firstdraft"></i> Find Candidates</button>
+          <button type="button" class="button" id="post-job"> <i class="fab fa-firstdraft"></i> Post a job offer </button>
+        </div>
+      </div>
+
     </div>
 
     <div class="container-big" id="about-paraf">
 
       <div class="container-small paragraf pa-small">
-        <h1>Our story</h1>
+        <h1>Find Candidates</h1>
         <p class="paragraf">
           Lorem ipsum dolor sit amet,
           consectetur adipisicing elit,
@@ -34,7 +44,7 @@
       </div>
 
       <div class="container-small paragraf pa-small">
-        <h3>A new way of working is born</h3>
+        <h1>Jobs</h1>
         <p class="paragraf">
           Lorem ipsum dolor sit amet,
           consectetur adipisicing elit,
@@ -55,7 +65,7 @@
       </div>
 
       <div class="container-small paragraf pa-small">
-        <h3>A new way of working is born</h3>
+        <h1>More stuff xD ...</h1>
         <p class="paragraf">
           Lorem ipsum dolor sit amet,
           consectetur adipisicing elit,
@@ -88,9 +98,10 @@
 import { Component, Vue } from 'vue-property-decorator';
 import FrontNav from './../../components/navigation/FrontNav.vue';
 import FrontFooter from './../../components/navigation/FrontFooter.vue';
+import SearchBox from './../../components/navigation/SearchBox.vue';
 
 @Component({
-  components: { FrontNav , FrontFooter },
+  components: { FrontNav , FrontFooter , SearchBox },
 })
-export default class About extends Vue {}
+export default class CompanyZone extends Vue {}
 </script>

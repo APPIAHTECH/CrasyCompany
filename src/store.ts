@@ -8,14 +8,14 @@ export default new Vuex.Store({
 
     SearchBoxData : {
       title: ["Software engineer"],
-      locations : ["Barcelona"]
-    }
+      locations : ["Barcelona"],
+    },
 
   },
 
-  getters:{
+  getters: {
 
-    getSearchBoxData: state => { return state.SearchBoxData }
+    getSearchBoxData: (state) => state.SearchBoxData,
 
   },
 

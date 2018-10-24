@@ -34,6 +34,19 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Auth-dir/ForgotPassword.vue'),
     },
 
+    /**Top menu pages **/
+
+    {
+      path: '/company-zone',
+      name: 'company-zone',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/companyZone-dir/CompanyZone.vue'),
+    },
+
+
+
     /**Footer pages **/
     {
       path: '/about',
@@ -85,7 +98,7 @@ export default new Router({
     {
       path: '/dashboard',
       name: 'dashboard',
-      component: () => import(/* webpackChunkName: "about" */ './views/backend/Dashboard.vue'),
+      component: () => import(/* webpackChunkName: "about" */ './views/backend-dir/Dashboard.vue'),
     },
 
     {
@@ -99,6 +112,14 @@ export default new Router({
       name: 'job-detail',
       component: () => import(/* webpackChunkName: "about" */ './views/jobs-dir/DetailJob.vue'),
     },
+
+    {
+      path: '/profile',
+      name: 'profile',
+      component: () => import(/* webpackChunkName: "about" */ './views/backend-dir/Profile.vue'),
+    },
+
+
 
   ],
 });

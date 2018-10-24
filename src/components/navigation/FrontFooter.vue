@@ -14,7 +14,7 @@
         <ul>
           <h3>Resources</h3>
           <li><a href="/work">Work with us</a></li>
-          <li><a href="/jobs">Job vacancies</a></li>
+          <li><a href="/find-jobs">Job vacancies</a></li>
           <li><a href="/csuport">Customer Support</a></li>
         </ul>
 

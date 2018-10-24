@@ -123,7 +123,7 @@ import LeftNav from './Nav/LeftNav.vue';
 import TopNav from './Nav/TopNav.vue';
 
 @Component({
-  components: { LeftNav , TopNav , FrontFooter }
+  components: { LeftNav , TopNav , FrontFooter },
 })
 export default class Dashboard extends Vue {}
 </script>
