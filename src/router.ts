@@ -119,7 +119,5 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/backend-dir/Profile.vue'),
     },
 
-
-
   ],
 });
