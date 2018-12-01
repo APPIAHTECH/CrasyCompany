@@ -9,24 +9,25 @@ export class User{
   protected name : string;
   protected password : string;
   public avatarIcon : string;
-  private const empty : any = UNDEFINED
-  public const defaultAvatarIcon = "Unicorns.png"
+  private empty : any = UNDEFINED
+  public defaultAvatarIcon = "Unicorns.png"
 
-  public User(){
-    this.setName(empty);
-    this.setPassword(empty);
-    this.setAvatarIcon(defaultAvatarIcon)
+
+  public User(username:string , password:string){
+    this.setName(username | this.empty);
+    this.setPassword(password | this.empty);
+    this.setAvatarIcon(this.defaultAvatarIcon)
   }
 
 /* ---------------- Setters And Getters Implementation s------------------------- */
 
-  public setName(){}
-  public setPassword(){}
-  public setAvatarIcon(){}
+  public setName(name:string){}
+  public setPassword(password:string){}
+  public setAvatarIcon(icon:string){}
 
-  public getName(){}
-  public getPassword(){}
-  public getAvatarIcon(){}
+  public getName():string{}
+  public getPassword():string{}
+  public getAvatarIcon():string{}
 
 
   /* ----------------Methods Implementations------------------------- */
